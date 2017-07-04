@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881D210B1F0B32CF00C057D2 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D210A1F0B32CF00C057D2 /* TwoViewController.swift */; };
+		881D210D1F0B399C00C057D2 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D210C1F0B399C00C057D2 /* ThreeViewController.swift */; };
 		887054971F0A78DC0028EE76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887054961F0A78DC0028EE76 /* AppDelegate.swift */; };
 		887054991F0A78DC0028EE76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887054981F0A78DC0028EE76 /* ViewController.swift */; };
 		8870549C1F0A78DC0028EE76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8870549A1F0A78DC0028EE76 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		881D210A1F0B32CF00C057D2 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		881D210C1F0B399C00C057D2 /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
 		887054931F0A78DC0028EE76 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		887054961F0A78DC0028EE76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		887054981F0A78DC0028EE76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				8870549D1F0A78DC0028EE76 /* Assets.xcassets */,
 				8870549F1F0A78DC0028EE76 /* LaunchScreen.storyboard */,
 				887054A21F0A78DC0028EE76 /* Info.plist */,
+				881D210A1F0B32CF00C057D2 /* TwoViewController.swift */,
+				881D210C1F0B399C00C057D2 /* ThreeViewController.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				887054991F0A78DC0028EE76 /* ViewController.swift in Sources */,
 				887054971F0A78DC0028EE76 /* AppDelegate.swift in Sources */,
+				881D210B1F0B32CF00C057D2 /* TwoViewController.swift in Sources */,
+				881D210D1F0B399C00C057D2 /* ThreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				887054A71F0A78DC0028EE76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
